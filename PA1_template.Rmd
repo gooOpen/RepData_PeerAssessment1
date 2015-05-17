@@ -130,3 +130,5 @@ g2 <- ggplot(average.activity.weekday, aes(x = interval, y = average.interval.st
 p2 <- g2 + geom_line()
 p2 + facet_grid(weekend ~ .)
 ```
+
+One can note the difference between weekdays and weekend days: There is probably a difference  due to work and leisure cycle of the anonymous person. On weekends there is more activity thtoughout the day which maybe means some leisure activities being performed, while on weekdays there is a peak in the morning, maybe excercising or the way to work (there is none in the evening, however) and less movement throughout the day, maybe the person is a white collar worker.
