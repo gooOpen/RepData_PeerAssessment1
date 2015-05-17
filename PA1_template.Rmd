@@ -7,7 +7,9 @@ output:
 
 
 ## Loading and preprocessing the data
-
+```{r}
+unzip
+```
 
 
 ## What is mean total number of steps taken per day?
